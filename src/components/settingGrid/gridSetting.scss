@@ -1,0 +1,54 @@
+.gridSettingContainer {
+  width: 320px;
+  height: 100vh;
+  padding-inline: 20px;
+  background-color: #e4f8fe;
+  overflow-y: scroll;
+
+  .title {
+    font-size: 25px;
+    font-weight: 500;
+    color: #01a8cc;
+  }
+  .locationName {
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    align-items: center;
+    gap: 15px;
+    border-radius: 8px;
+  }
+
+  .backdivider {
+    display: flex;
+    color: #16b3d6;
+    align-items: center;
+    gap: 15px;
+
+    .dividerelement {
+      width: 100%;
+    }
+    .backIcon {
+      margin-top: 10px;
+    }
+    .backIcon:hover {
+      cursor: pointer;
+    }
+  }
+
+  .analyzeButton {
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #01a8cc;
+    height: 30px;
+    width: 100%;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  .analyzeButton:hover {
+    background-color: #16b3d6;
+    cursor: pointer;
+  }
+}

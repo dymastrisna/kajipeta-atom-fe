@@ -1,0 +1,27 @@
+.aaSettingContainer {
+  width: 320px;
+  height: 100hv;
+  padding-inline: 20px;
+  background-color: #e4f8fe;
+  overflow-y: scroll;
+
+  .title {
+    font-size: 25px;
+    font-weight: 500;
+    color: #01a8cc;
+  }
+
+  .analyzeButton {
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #01a8cc;
+    height: 30px;
+    width: 100px;
+    color: white;
+  }
+  .analyzeButton:hover {
+    background-color: #16b3d6;
+    cursor: grab;
+  }
+}

@@ -1,0 +1,20 @@
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+
+  p {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: #01a5c9;
+  }
+
+  .line {
+    height: 2px;
+    width: 100%;
+    background-color: #98e2f3;
+  }
+}

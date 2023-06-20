@@ -1,0 +1,55 @@
+.inputParamConatiner {
+  margin-top: 10px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 0px #888888;
+
+  .paramTitle {
+    background: #e4f8fe;
+    border-radius: 6px;
+    padding: 10px;
+    display: flex;
+    p {
+      margin: 0;
+      padding: 0;
+      font-weight: 600;
+    }
+  }
+
+  div {
+    .multiselect-container {
+      margin-top: 5px;
+      .searchWrapper {
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        min-height: 22px;
+        padding-inline: 10px;
+        border-radius: 6px;
+        position: relative;
+        .chip {
+          background-color: #01a8cc;
+          font-size: 10px;
+          padding: 2px 5px;
+          border-radius: 8px;
+        }
+      }
+      .highlightOption {
+        background-color: white;
+        color: black;
+      }
+      .option {
+        padding-left: 12px;
+        padding-top: 2px;
+        font-size: 13px;
+      }
+      .option:hover {
+        background-color: rgb(121, 206, 240);
+        color: black;
+      }
+      .checkbox {
+        accent-color: #01a8cc;
+      }
+    }
+  }
+}

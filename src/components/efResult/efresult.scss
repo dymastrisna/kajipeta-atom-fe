@@ -1,0 +1,27 @@
+.efContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 13px;
+
+  .efelement {
+    display: flex;
+
+    input:checked ~ .checkmark {
+      background-color: #0b2f4d;
+      accent-color: #01a8cc;
+    }
+
+    .efname {
+      width: 50%;
+    }
+    .tdua {
+      width: 10%;
+    }
+    .efjumlah {
+      width: 40%;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.locationInput {
+  margin-top: 10px;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: white;
+}
+
+.levelTitle {
+  // margin-top: 5px;
+  font-size: 12px;
+  color: rgb(184, 184, 184);
+}
+
+select {
+  background-color: #e4f8fe;
+  border: none;
+  padding-block: 4px;
+  font-weight: 500;
+  width: 100%;
+  border-radius: 4px;
+  // color: #003c4f;
+}
+
+select:focus {
+  outline: none;
+  background-color: white;
+  border: 1px solid #e4f8fe;
+  border: none;
+}

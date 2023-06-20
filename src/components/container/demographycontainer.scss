@@ -1,0 +1,30 @@
+.demographyContainer {
+  width: 100%;
+  font-size: 12px;
+  padding-block: 5px;
+  .header {
+    display: flex;
+    background-color: white;
+    border: 1px solid #01a8cc;
+    border-radius: 5px;
+
+    .title2 {
+      flex: 9;
+      font-weight: 500;
+
+      padding-left: 10px;
+      padding-block: 5px;
+    }
+    .icon {
+      width: 30px;
+      padding: 5px;
+      cursor: pointer;
+    }
+  }
+
+  .content {
+    background-color: #fdfdfd;
+    padding-inline: 5px;
+    padding-block: 1px;
+  }
+}

@@ -1,0 +1,42 @@
+.searchBarContainer {
+  width: 500px;
+  height: 50px;
+  background-color: white;
+  z-index: 99999;
+  // border-radius: 7px;
+  box-shadow: 0 0 10px #888888;
+
+  .inputContainer {
+    width: 100%;
+    display: inline-flex;
+    flex-flow: row wrap;
+    .iconInput {
+      color: #01a8cc;
+      padding: 10px;
+      font-size: 30px;
+    }
+    .searchInput {
+      border: none;
+      background: none;
+      flex: 1;
+      font-size: 15px;
+      padding-left: 20px;
+    }
+    input:focus {
+      outline: none;
+    }
+  }
+  .suggestionlist {
+    background-color: white;
+    opacity: 0.8;
+    padding-left: 20px;
+    padding-block: 8px;
+    box-shadow: 0 0 1px #888888;
+    // border-radius: 5px;
+  }
+  .suggestionlist:hover {
+    opacity: 1;
+    background-color: #e4f8fe;
+    cursor: pointer;
+  }
+}

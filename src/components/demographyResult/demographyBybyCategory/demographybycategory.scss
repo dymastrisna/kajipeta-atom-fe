@@ -1,0 +1,94 @@
+.bycategoryResult {
+  margin-top: 10px;
+  padding-inline: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+
+  .rowTotal,
+  .rowTitle {
+    font-weight: 600;
+
+    padding-inline: 3px;
+    display: flex;
+    gap: 5px;
+    margin-bottom: 2px;
+    .category,
+    .percentage,
+    .number {
+      border-radius: 5px;
+      padding: 2px;
+      font-size: 12px;
+      text-align: center;
+      border: 1px solid rgb(223, 223, 223);
+    }
+    .category {
+      padding-inline: 5px;
+      text-align: left;
+      flex: 2;
+    }
+    .number {
+      flex: 2;
+    }
+    .percentage {
+      flex: 1;
+    }
+  }
+  .rowTotal {
+    background-color: #e4f8fe;
+    padding-block: 5px;
+    border-radius: 5px;
+    .category,
+    .percentage,
+    .number {
+      border: none;
+    }
+  }
+  .rowDemography {
+    padding-inline: 3px;
+    display: flex;
+    gap: 5px;
+
+    .category,
+    .percentage,
+    .number {
+      border-radius: 5px;
+      padding: 2px;
+      font-size: 11px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .category {
+      padding-inline: 5px;
+      text-align: left;
+      flex: 2;
+      background-color: white;
+      border: 1px solid rgb(223, 223, 223);
+    }
+    .number {
+      flex: 2;
+      color: white;
+    }
+    .percentage {
+      flex: 1;
+      color: white;
+    }
+
+    .total {
+      padding-inline: 5px;
+      text-align: left;
+      font-size: 14px;
+      font-weight: 600;
+      flex: 2;
+    }
+  }
+}
+
+.custom-tooltip {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 3px;
+  border-radius: 3px;
+}

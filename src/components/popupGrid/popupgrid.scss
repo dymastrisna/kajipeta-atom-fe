@@ -1,0 +1,19 @@
+.popupLeaflet {
+  .popupContainer {
+    width: 250px;
+  }
+}
+
+.popupTitle {
+  padding: 2px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 550;
+  border-radius: 7px;
+  background-color: #e4f8fe;
+  color: #01a8cc;
+}
+
+.leaflet-popup-content-wrapper {
+  background-color: rgba(255, 255, 255, 0.85);
+}

@@ -1,0 +1,47 @@
+.rowTotal {
+  background-color: white;
+  padding-block: 5px;
+  border-radius: 5px;
+  align-items: center;
+}
+.rowDemography,
+.rowTotal {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 3px;
+
+  .age,
+  .female,
+  .male {
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .age {
+    padding-inline: 5px;
+    text-align: left;
+    flex: 1.2;
+    background-color: white;
+    border: 1px solid rgb(223, 223, 223);
+  }
+  .male {
+    flex: 1;
+    color: #5ac6dd;
+    border: 1px solid #5ac6dd;
+    // color: white;
+  }
+  .female {
+    flex: 1;
+    color: #ef5da8;
+    border: 1px solid #ef5da8;
+  }
+  .total {
+    padding-inline: 5px;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 600;
+    flex: 1.2;
+  }
+}
