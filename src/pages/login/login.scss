@@ -1,0 +1,108 @@
+.login {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginContainer {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  .title {
+    position: absolute;
+    z-index: 99001;
+    left: 7%;
+    top: 7%;
+    color: white;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 1px 1px 4px #000000;
+  }
+  .formContainer {
+    z-index: 99000;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    // background-color: aqua;
+    background-image: linear-gradient(
+      287.15deg,
+      rgba(144, 227, 245, 0.315) 0.98%,
+      rgba(200, 231, 238, 0.215) 33.4%,
+      rgba(14, 175, 210, 0.5) 72.23%,
+      rgba(1, 168, 204, 0.5) 100%
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .formBox {
+      width: 500px;
+      height: 300px;
+      box-shadow: 0 0 10px #888888;
+      border-radius: 10px;
+      background-color: rgba(255, 255, 255, 0.7);
+      padding: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        p {
+          color: #104d76;
+          font-weight: 500;
+          font-size: larger;
+        }
+
+        input {
+          width: 90%;
+          height: 50px;
+          margin: 10px;
+          border-radius: 10px;
+          padding-left: 15px;
+          border: none;
+          font-size: large;
+          box-shadow: 0 0 5px #036d80;
+        }
+        input:focus {
+          outline: none;
+          border: 3px solid #01a8cc;
+        }
+
+        button {
+          margin-top: 20px;
+          width: 200px;
+          height: 50px;
+          border: none;
+          background-color: #01a8cc;
+          color: white;
+          font-weight: bold;
+          cursor: pointer;
+          border-radius: 15px;
+          font-size: large;
+        }
+
+        span {
+          color: red;
+          font-size: 12;
+          margin-top: 10;
+        }
+      }
+    }
+  }
+  .map {
+    width: 100%;
+    height: 100vh;
+    .leaflet-container {
+      width: 100%;
+      height: 100%;
+    }
+    .leaflet-control-attribution {
+      display: none;
+    }
+  }
+}

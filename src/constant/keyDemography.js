@@ -1,0 +1,30 @@
+export const keyDemography = {
+  //profession ====================
+  belum_beke: "Belum/tidak bekerja",
+  aparatur_p: "Aparatur Pejabat Negara",
+  tenaga_pen: "Tenaga Pengajar",
+  wiraswasta: "Wiraswasta",
+  pertanian: "Pertanian dan Peternakan",
+  nelayan: "Nelayan",
+  pelajar: "Pelajar dan Mahasiswa",
+  tenaga_kes: "Tenaga Kesehatan",
+  pensiunan: "Pensiunan",
+  lainnya: "Lainnya",
+  //education ==================
+  tamat_sd: "SD",
+  sltp: "SMP",
+  slta: "SMA",
+  diploma_i_: "D1",
+  diploma_ii: "D2",
+  diploma_iv: "S1/D4",
+  strata_ii: "S2",
+  strata_iii: "S3",
+  //religion ====================
+  islam: "Islam",
+  kristen: "Kristen",
+  katholik: "Katholik",
+  hindu: "Hindu",
+  budha: "Budha",
+  konghucu: "Konghucu",
+  kepercayaa: "Kepercayaan",
+};
