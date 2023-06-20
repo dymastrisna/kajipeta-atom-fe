@@ -1,3 +1,8 @@
+# Do this first
+clone your repository
+run "npm -i"
+npm start You are good to go. Happy Coding!
+
 # Make .env file
 Input this in file REACT_APP_API_URL=http://localhost:443
 
