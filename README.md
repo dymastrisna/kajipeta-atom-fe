@@ -1,3 +1,6 @@
+# Make .env file
+Input this in file REACT_APP_API_URL=http://localhost:443
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
